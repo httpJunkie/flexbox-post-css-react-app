@@ -1,0 +1,14 @@
+/* content.css */
+aside.left-nav {
+  min-width: 150px;
+  max-width: 160px;
+  background-color: #cecece;
+}
+aside.left-nav header {
+  padding: 0.5rem;
+  line-height: 1rem;
+  font-size: 10px;
+}
+aside.main {
+  background-color: #efefef;
+}

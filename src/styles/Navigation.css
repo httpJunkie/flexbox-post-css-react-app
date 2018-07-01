@@ -1,0 +1,26 @@
+/* navigaton.css */
+nav {
+  background-color: #555;
+}
+nav ul {
+  display: block;
+  background-color: #ccc;
+}
+nav ul li {
+  display: block;
+  list-style: none;
+  line-height: 40px;
+  background-color: #dcdcdc;
+}
+nav ul li a {
+  display: inline-block;
+  padding-left: 0.5rem;
+  width: calc(100% - 0.5rem);
+  background-color: #555;
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #484848;
+  color: #a1a1a1;
+}

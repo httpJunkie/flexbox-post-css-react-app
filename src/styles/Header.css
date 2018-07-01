@@ -1,0 +1,7 @@
+/* header.css */
+#app-root > header {
+  background-color: #222;
+  color: white;
+  min-height: 60px;
+  max-height: 60px;
+}
