@@ -14,9 +14,9 @@ describe("App", function () {
     expect(1).toBe(1);
   })
 
-  it('renders a Content', () => {
+  it('renders a Main', () => {
     let mountedApp = shallow(<App />);
-    const content = mountedApp.find('Content');
+    const Main = mountedApp.find('Main');
     expect(1).toBe(1);
   })
 
