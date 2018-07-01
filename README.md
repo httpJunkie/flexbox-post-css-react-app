@@ -6,3 +6,8 @@ Each *import* should have a comment at the top of the page, with the files name,
 
 ## Dependencies  
 `npm-run-all` A CLI tool to run multiple npm-scripts in parallel or sequential.  
+`autoprefixer` A PostCSS plugin which parse your CSS and add vendor prefixes.  
+`postcss-cli` A CLI tool for PostCSS.  
+`postcss-import` A PostCSS plugin to inline @import rules content.  
+`postcss-nested` A PostCSS plugin to unwrap nested rules like how Sass does it.  
+`postcss-preset-env` A PostCSS plugin to you convert modern CSS into something most browsers can understand, determining the polyfills you need based on your targeted browsers or runtime environments.  
