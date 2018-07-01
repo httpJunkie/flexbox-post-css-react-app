@@ -8,15 +8,15 @@ describe("Main", function () {
     let mountedMain = shallow(<Main />);
   });
 
-  it('renders a Header', () => {
+  it('renders a Navigation', () => {
     let mountedMain = shallow(<Main />);
-    const header = mountedApp.find('Navigation');
+    const navigation = mountedMain.find('Navigation');
     expect(1).toBe(1);
   })
 
   it('renders a Content', () => {
     let mountedMain = shallow(<Main />);
-    const content = mountedApp.find('Content');
+    const content = mountedMain.find('Content');
     expect(1).toBe(1);
   })
 
