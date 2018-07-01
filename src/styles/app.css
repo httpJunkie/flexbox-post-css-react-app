@@ -1,5 +1,9 @@
-@import '_reset.css';
-@import '_shared.css';
+/* include files (for )shared styling, etc) */
+@import '_00_reset.css';
+@import '_01_shared.css';
+@import '_03_percentages.css';
+
+/* Component styles, (Work In Progress) */
 @import 'Header.css';
 @import 'Content.css';
 @import 'Navigation.css';

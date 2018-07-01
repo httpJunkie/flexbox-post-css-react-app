@@ -11,3 +11,18 @@ Each *import* should have a comment at the top of the page, with the files name,
 `postcss-import` A PostCSS plugin to inline @import rules content.  
 `postcss-nested` A PostCSS plugin to unwrap nested rules like how Sass does it.  
 `postcss-preset-env` A PostCSS plugin to you convert modern CSS into something most browsers can understand, determining the polyfills you need based on your targeted browsers or runtime environments.  
+
+*More PostCSS plugins avialable at: https://github.com/postcss/postcss*
+
+## Flexbox CSS Classes
+The styles used in this site are very basic flexbox styles that I have created that you can use in combination with each other to create simple and effective site layout decisions with.
+
+The main idea is to build rows of columns at the end of the day. let's say that we want a very simple Header, Main Content Section and Footer. This is basically just a containing div and three child div's in the following stricture:
+
+```
+<div className="flex-container col">
+  <div className="flex-item width-33></div>
+  <div className="flex-item width-33></div>
+  <div className="flex-item width-33></div>
+</footer>
+```
