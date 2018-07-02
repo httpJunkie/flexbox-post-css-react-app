@@ -133,7 +133,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
   font-family: Comfortaa;
   font-size: 1.25rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 /* content.css */
 aside.left-nav {
