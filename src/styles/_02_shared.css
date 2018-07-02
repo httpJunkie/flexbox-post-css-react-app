@@ -1,5 +1,4 @@
 /* shared.css */
-@use postcss-each;
 #root {
   display: flex;
   flex-direction: column;
