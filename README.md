@@ -20,9 +20,33 @@ The styles used in this site are very basic flexbox styles that I have created t
 The main idea is to build rows of columns at the end of the day. let's say that we want a very simple Header, Main Content Section and Footer. This is basically just a containing div and three child div's in the following stricture:
 
 ```
-<div className="flex-container col">
-  <div className="flex-item width-33></div>
-  <div className="flex-item width-33></div>
-  <div className="flex-item width-33></div>
+<div className="flex-container row">
+  <div className="flex-item width-33">
+    <Header />
+  </div>
+  <div className="flex-item width-33">
+    <Main />
+  </div>
+  <div className="flex-item width-33">
+    <Footer />
+  </div>
+</div>
+```
+
+Alternatively, if you wanted the surrounding flex-item div's to be the first element inside your React Components, your App JSX could just have the following markup:
+
+```
+<div className="flex-container row">
+  <Header />
+  <Main />
+  <Footer />
+</div>
+```
+
+ANd then each Component would have contents similar to this:
+
+```
+<div className="flex-item width-33">
+  <h1>Header Title</h1>
 </div>
 ```
