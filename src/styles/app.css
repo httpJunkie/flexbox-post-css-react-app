@@ -1,6 +1,6 @@
 /* include files (for )shared styling, etc) */
-@import '_00_reset.css';
-@import '_01_shared.css';
+@import '_01_reset.css';
+@import '_02_shared.css';
 @import '_03_percentages.css';
 
 /* Component styles, (Work In Progress) */
