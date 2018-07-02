@@ -24,5 +24,5 @@ The main idea is to build rows of columns at the end of the day. let's say that 
   <div className="flex-item width-33></div>
   <div className="flex-item width-33></div>
   <div className="flex-item width-33></div>
-</footer>
+</div>
 ```
