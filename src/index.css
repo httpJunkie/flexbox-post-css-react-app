@@ -33,7 +33,6 @@ blockquote:before, blockquote:after,
 q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 /* shared.css */
-@use postcss-each;
 #root {
   display: flex;
   flex-direction: column;
@@ -123,7 +122,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* Component styles, (Work In Progress) */
 /* header.css */
 #app-root > header {
-  background-color: #222;
+  background-color: #505050;
   font-size: 1rem;
   color: white;
   min-height: 60px;
@@ -172,7 +171,7 @@ nav ul li a:hover {
 /* footer.css */
 #app-root > footer {
   max-height: 100px;
-  background-color: #fafafa;
+  background-color: #505050;
   font-size: 1rem;
 }
 #app-root > footer section {
