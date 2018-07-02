@@ -5,7 +5,7 @@ class Navigation extends Component {
     return (
       <aside className="flex-item flex-container col left-nav">
         <header className="flex-item no-grow">
-          <p>Our superb site navigation needs a little description maybe, I think so, yay.</p>
+          <p>Vestibulum iaculis vel elit lobortis, sagittis est titales urna nissin eget dui pharet.</p>
         </header>
         <nav className="flex-item">
           <ul>
