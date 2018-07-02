@@ -4,7 +4,7 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 
 // import { BrowserRouter } from 'react-router';
-import '../styles/app.css';
+// import '../styles/app.css';
 
 class App extends Component {
   render() {
