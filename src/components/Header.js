@@ -6,7 +6,9 @@ class Header extends Component {
       <header className="flex-item flex-container col">
         <div className="flex-item flex-container height-100">
           <div className="flex-item flex-container horiz-center vert-center">
-            <div className="text-center width-80">left</div>
+            <div className="width-100">
+            <span className="title">PORTFOLIO</span>
+            </div>
           </div>
           <div className="flex-item flex-container horiz-center vert-center">
             <div className="text-center width-80">right</div>

@@ -123,10 +123,17 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* header.css */
 #app-root > header {
   background-color: #505050;
+  font-family: Comfortaa;
   font-size: 1rem;
   color: white;
   min-height: 60px;
   max-height: 60px;
+}
+#app-root > header .title {
+
+  font-family: Comfortaa;
+  font-size: 1.25rem;
+  padding-left: 1rem;
 }
 /* content.css */
 aside.left-nav {
@@ -172,6 +179,7 @@ nav ul li a:hover {
 #app-root > footer {
   max-height: 100px;
   background-color: #505050;
+  color: #dedede;
   font-size: 1rem;
 }
 #app-root > footer section {

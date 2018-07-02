@@ -1,7 +1,8 @@
 /* footer.css */
 #app-root > footer {
   max-height: 100px;
-  background-color: #fafafa;
+  background-color: #505050;
+  color: #dedede;
   font-size: 1rem;
 }
 #app-root > footer section {
