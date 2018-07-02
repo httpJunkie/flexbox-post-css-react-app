@@ -9,9 +9,6 @@ class Header extends Component {
             <div className="text-center width-80">left</div>
           </div>
           <div className="flex-item flex-container horiz-center vert-center">
-            <div className="text-center width-80">middle</div>
-          </div>
-          <div className="flex-item flex-container horiz-center vert-center">
             <div className="text-center width-80">right</div>
           </div>
         </div>
